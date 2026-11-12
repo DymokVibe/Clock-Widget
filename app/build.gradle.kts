@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.transparentclock"
+    namespace = "com.example.asciiclock"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.example.transparentclock"
+        applicationId = "com.example.asciiclock"
         minSdk = 26
         targetSdk = 36
         versionCode = 1

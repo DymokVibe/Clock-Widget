@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "TransparentClockWidget"
+rootProject.name = "AsciiClockWidget"
 include(":app")
