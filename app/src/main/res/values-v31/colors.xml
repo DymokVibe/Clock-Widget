@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Автоматически берет акцентный цвет Material You из системной темы телефона -->
     <color name="ascii_clock_primary">@android:color/system_accent1_600</color>
     <color name="ascii_clock_secondary">@android:color/system_accent1_500</color>
 </resources>

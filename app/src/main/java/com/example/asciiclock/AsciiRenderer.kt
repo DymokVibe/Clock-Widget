@@ -206,8 +206,7 @@ object AsciiRenderer {
                 rows[r].append(glyph[r])
             }
         }
-        return rows.joinToString("
-") { it.toString() }
+        return rows.joinToString("\n") { it.toString() }
     }
 
     fun renderDate(now: Date = Date()): String {

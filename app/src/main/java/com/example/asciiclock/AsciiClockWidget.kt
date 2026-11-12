@@ -73,7 +73,6 @@ class AsciiClockWidget : AppWidgetProvider() {
             views.setTextViewText(R.id.ascii_time, AsciiRenderer.renderTime(context, now = now))
             views.setTextViewText(R.id.ascii_date, AsciiRenderer.renderDate(now = now))
 
-            // Tap on ASCII clock digits -> open system Alarms
             val alarmIntent = Intent(AlarmClock.ACTION_SHOW_ALARMS).apply {
                 flags = Intent.FLAG_ACTIVITY_NEW_TASK
             }
@@ -85,7 +84,6 @@ class AsciiClockWidget : AppWidgetProvider() {
             )
             views.setOnClickPendingIntent(R.id.ascii_time, alarmPendingIntent)
 
-            // Tap on date line -> open ASCII clock settings & sync status
             val settingsIntent = Intent(context, SettingsActivity::class.java).apply {
                 flags = Intent.FLAG_ACTIVITY_NEW_TASK
             }

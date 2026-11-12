@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Пастельный акцент Material You для темной темы (как у иконок и обоев на скриншоте) -->
     <color name="ascii_clock_primary">@android:color/system_accent1_200</color>
     <color name="ascii_clock_secondary">@android:color/system_accent1_100</color>
 </resources>
